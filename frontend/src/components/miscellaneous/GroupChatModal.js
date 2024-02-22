@@ -171,11 +171,11 @@ const GroupChatModal = ({ children }) => {
             ) : (
               searchResult
                 ?.slice(0, 4)
-                .map((user) => (
+                .map((users) => (
                   <UserListItem
-                    key={user._id}
-                    user={user}
-                    handleFunction={() => handleGroup(user)}
+                    key={users._id}
+                    user={users}
+                    handleFunction={() => handleGroup(users)}
                   />
                 ))
             )}
