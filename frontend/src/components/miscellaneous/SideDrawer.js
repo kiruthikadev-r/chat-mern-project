@@ -142,7 +142,7 @@ function SideDrawer() {
           </Button>
         </Tooltip>
         <Text fontSize="2xl" fontFamily="Work sans">
-          Annai-Chat-CS
+          Arasu-Clg-Chat-CS
         </Text>
         <div>
           <Menu>
